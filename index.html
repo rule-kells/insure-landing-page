@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <nav class="nav container flex bg--secondary">
+    <img src="./images/logo.svg" alt="Insure">
+
+    <div class="nav__toggle--container">
+      <div class="nav__toggle">
+        <div class="nav__toggle--open"><img class="hamburger" src="./images/icon-hamburger.svg" alt="hamburger button">
+        </div>
+        <div class="nav__toggle--close"><img class="close" src="./images/icon-close.svg" alt="close button"></div>
+      </div>
+    </div>
+
+    <ul class="nav__list nav__list--primary flex bg--nav">
+      <li><a href="#">How we work</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Account</a></li>
+      <li><button class="btn">View plans</button></li>
+    </ul>
+  </nav>
+  <header class="hero bg--primary">
+    <div class="container flex">
+      <picture class="hero__img">
+        <source srcset="./images/image-intro-desktop.jpg" media="(min-width: 800px)">
+        <img class="img" src="./images/image-intro-mobile.jpg" alt="">
+      </picture>
+      <section class="hero__content">
+        <h1 class="fs-header-l">Humanizing your insurance.</h1>
+        <p class="body">
+          Get your life insurance coverage easier and faster. We blend our expertise
+          and technology to help you find the plan that’s right for you. Ensure you
+          and your loved ones are protected.
+        </p>
+        <button class="btn">View plans</button>
+      </section>
+    </div>
+  </header>
+
+  <main class="bg--secondary">
+    <section class="different container">
+      <h2 class="fs-header-l">We’re different</h2>
+      <div class="flex">
+        <section class="different__component">
+          <img class="img" src="./images/icon-snappy-process.svg" alt="lighnting bolt">
+          <h3 class="fs-header-s">Snappy Process</h3>
+          <p class="body">
+            Our application process can be completed in minutes, not hours. Don’t get
+            stuck filling in tedious forms.
+          </p>
+        </section>
+        <section class="different__component">
+          <img class="img" src="./images/icon-affordable-prices.svg" alt="dollar sign in a circle">
+          <h3 class="fs-header-s">Affordable Prices</h3>
+          <p class="body">
+            We don’t want you worrying about high monthly costs. Our prices may be low,
+            but we still offer the best coverage possible.
+          </p>
+        </section>
+        <section class="different__component">
+          <img class="img" src="./images/icon-people-first.svg" alt="profile icon">
+          <h3 class="fs-header-s">People First</h3>
+          <p class="body">
+            Our plans aren’t full of conditions and clauses to prevent payouts. We make
+            sure you’re covered when you need it.
+          </p>
+        </section>
+      </div>
+    </section>
+    <section class="work container flex bg--primary">
+      <h2 class="fs-header-m">Find out more about how we work</h2>
+      <button class="btn">How we work</button>
+    </section>
+  </main>
+
+  <footer class="bg--neutral">
+    <div class="container flex">
+      <img src="./images/logo.svg" alt="Insure">
+      <ul class="social-list flex">
+        <li class="social-item">
+          <a aria-label="Facebook" href="#" class="social-link">
+            <img src="./images/icon-facebook.svg" alt="Facebook">
+          </a>
+        </li>
+        <li class="social-item">
+          <a aria-label="Twitter" href="#" class="social-link">
+            <img src="./images/icon-twitter.svg" alt="Twitter">
+          </a>
+        </li>
+        <li class="social-item">
+          <a aria-label="Pinterest" href="#" class="social-link">
+            <img src="./images/icon-pinterest.svg" alt="Pinterest">
+          </a>
+        </li>
+        <li class="social-item">
+          <a aria-label="Instagram" href="#" class="social-link">
+            <img src="./images/icon-instagram.svg" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container flex">
+      <ul class="nav__list nav__list--secondary">
+        <li>
+          <h3 class="title">Our company</h3>
+        </li>
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Why Insure?</a></li>
+        <li><a href="#">View plans</a></li>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+      <ul class="nav__list nav__list--secondary">
+        <li>
+          <h3 class="title">Help me</h3>
+        </li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Cookies</a></li>
+      </ul>
+      <ul class="nav__list nav__list--secondary">
+        <li>
+          <h3 class="title">Contact</h3>
+        </li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Live chat</a></li>
+      </ul>
+      <ul class="nav__list nav__list--secondary">
+        <li>
+          <h3 class="title">Others</h3>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Licenses</a></li>
+      </ul>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Kellen Ruyle</a>.
+    </div>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
